@@ -1,0 +1,157 @@
+/* here we start with nav bar style */
+
+
+/*  this is for normal situation */
+
+body {
+    font-family: 'Aladin';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+hed {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navBar {
+    display: flex;
+    position: fixed;
+    /*  we make fixed to make navBar still showeng aboive even when we scroll down*/
+    top: 0;
+    height: 10%;
+    width: 100%;
+    margin: 0;
+    justify-content: last baseline;
+    text-align: center;
+    background-color: #1E1F25;
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.5);
+    /* to make navBar above all the conten on the page */
+    z-index: 1;
+}
+
+.navBarItems {
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+    font-size: 50;
+}
+
+
+/*  this is for hover situation( when put the mouse above content with outclik */
+
+.navBarItems:hover {
+    background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+    background-size: 100% 100%;
+    color: #27262c;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ac9e9b;
+    font-weight: bold;
+}
+
+.navText:visited {
+    color: #27262c;
+    border: red solid500;
+}
+
+
+/*when we clik the content some style will happen  */
+
+.navBarItems:active {
+    /* to make the boutton go down little bit */
+    transform: translateY(4px);
+}
+
+
+/* to make some style after we visti spicafic page */
+
+.navBarItems:visited {
+    transform: translateY(4px);
+    color: #2804dd;
+}
+
+
+/* here we some position for navbar items */
+
+@keyframes spring {
+    15% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1, 1);
+    }
+}
+
+.shameless-plug {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    padding: 8px 20px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+
+/*  done for hover situation */
+
+
+/* dropdown list */
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    /* box shadow to make some shadow that make the contnet became like 3D shape */
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: #1E1F25;
+}
+
+.dropdown-content a {
+    color: #ebebeb;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ad5b47
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*  */
+
+
+/*  done from nabBar */

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/* i made some style on * sign to apply it in all element then if need do some changes i made it in specfic elemnt */
+
+body {
+    background: #1E1F25;
+    font-family: 'Aladin';
+    font-size: 120%;
+}
+
+
+/* i set the backgrount of every thing in bode to be spicific color 
+and make the font famely Aladin that i imported already
+and make the font size Percentage to make it responsive
+*/
+
+a {
+    text-decoration: none;
+    /* to remove under line from a tag */
+}
+
+
+/* starting banner */
+
+#banner {
+    margin-top: 2%;
+    /* to put some space between bannner and nabvar */
+}
+
+#banner img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ending banner */
+
+
+/*starting descripton*/
+
+#lang {
+    /* to make every text set in the center */
+    text-align: center;
+    color: #54628e;
+}
+
+#desclang {
+    color: #54628e;
+    font-family: Alatsi;
+}
+
+
+/*ending descripton*/
+
+
+/*starting video*/
+
+#phpVid {
+    /* to make the color of text spicafic color */
+    color: #54628e;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#ved {
+    width: 50%;
+    /* we make line in out side the video that called border */
+    border: #54628e 2px solid;
+    margin-top: 2%;
+}
+
+
+/*ending video*/
+
+
+/*  */

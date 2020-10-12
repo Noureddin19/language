@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    background: #1E1F25;
+    font-family: 'Aladin';
+    font-size: 120%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* starting banner */
+
+#banner {
+    margin-top: 2%;
+}
+
+#banner img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ending banner */
+
+
+/*starting descripton*/
+
+#lang {
+    text-align: center;
+    color: #f0da50;
+}
+
+#desclang {
+    font-family: Alatsi;
+}
+
+
+/*ending descripton*/
+
+
+/*starting video*/
+
+#javaVid {
+    color: #f0da50;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#vedJava {
+    width: 50%;
+    border: #f0da50 2px solid;
+    margin-top: 2%;
+}
+
+
+/*ending video*/
+
+
+/* starting icons */
+
+.iconn {
+    text-align: center;
+}
+
+.material-icons {
+    /*  i changed the color of the icon */
+    color: rgba(240, 218, 80, 1);
+}
+
+#trans {
+    position: relative;
+    top: 5px;
+    left: 45%;
+    font-size: 300%;
+}
+
+#uni {
+    position: relative;
+    top: 5px;
+    left: 45%;
+    font-size: 300%;
+}
+
+
+/*ending icons  */
+
+
+/*  */

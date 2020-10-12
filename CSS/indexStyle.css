@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    background: #1E1F25;
+    font-family: 'Aladin';
+    font-size: 120%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* starting banner */
+
+#banner {
+    margin-top: 3%;
+}
+
+#banner img {
+    height: 80%;
+    width: 100%;
+}
+
+
+/* ending banner */
+
+
+/* starting styling table*/
+
+#htmlHead {
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+}
+
+
+/* here i started to make some styling of table content */
+
+table {
+    border-collapse: collapse;
+    font-family: Almarai;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.5);
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+/* to make any even row with spicafic styles */
+
+tr:nth-child(even) {
+    background-color: #ee5f27;
+}
+
+
+/* to make any odd row with spicafic styles */
+
+tr:nth-child(odd) {
+    background-color: #cc1100;
+    color: white;
+    border: 2px solid #1E1F25;
+}
+
+th {
+    background-color: #ee5f27;
+    color: white;
+}
+
+.s0 {
+    /* i made some styles the make the table look 3D table */
+    text-align: center;
+    border-right: #1E1F25 solid 2px;
+    box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+
+/* ending styling table*/
+
+
+/* starting icons */
+
+#more {
+    text-align: center;
+    color: #ee5f27;
+    font-size: 200%;
+    font-family: 'Alatsi';
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.iconn {
+    text-align: center;
+}
+
+#addc {
+    color: #ee5f27;
+    text-align: center;
+    font-size: 130%;
+    vertical-align: middle;
+    /* this to make icon align with text */
+}
+
+#moreHTMLCode {
+    color: #ee5f27;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 2%;
+}
+
+
+/*ending icons  */
+
+
+/*  */

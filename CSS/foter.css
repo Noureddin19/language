@@ -1,0 +1,39 @@
+        /* starting cont */
+        
+        #cont {
+            background-color: black;
+            color: white;
+            z-index: 2;
+            height: 10%;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+            /* opacity to make the user able to see somethings behind the div */
+            opacity: 60%;
+            padding-top: 1%;
+            padding-left: 3.5%;
+            font-size: 170%;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+        }
+        
+        #follow {
+            margin-right: 1%;
+            /* to make P tag with out new line */
+            display: inline;
+            margin-bottom: 0.8%;
+        }
+        
+        a {
+            /* to make a tag in this page inherit the proprties of the father tag */
+            color: inherit;
+        }
+        
+        #maili {
+            font-size: 100%;
+            vertical-align: top;
+            margin-top: 1%;
+            color: white;
+        }
+        /*ending cont  */

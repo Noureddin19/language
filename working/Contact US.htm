@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="../CSS/navBar.css">
+
+    <link rel="stylesheet" href="../CSS/foter.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <body>
+        <header id="hed">
+            <ul ID="navBar">
+                <a href="../index.htm">
+                    <li class="navBarItems "> HTML</li>
+                </a>
+
+                <a href="../working/CSS.htm">
+                    <li class=" navBarItems ">CSS</li>
+                </a>
+                <a href="../working/JavaScript.htm ">
+                    <li class="navBarItems ">JavaScript</li>
+                </a>
+
+                <a href="../working/php.htm ">
+                    <li class="navBarItems ">PHP </li>
+                </a>
+
+                <div class="dropdown ">
+                    <a href="../working/About US.htm ">
+                        <li class="navBarItems dropbtn ">About US </li>
+                    </a>
+                    <div class="dropdown-content ">
+                        <a href="https://noureddin19.github.io/SE371/MyCV.htm ">Noureddin Farahat</a>
+                        <a href="https://acnaif.github.io/se371/ ">Naif Alfirm</a>
+                        <a href="https://talalbafarat.github.io/SE371/Exercise1/ ">Talal Bafarat</a>
+                    </div>
+                </div>
+
+                <a href="../working/Contact US.htm ">
+                    <li class="navBarItems ">Contact US </li>
+                </a>
+
+            </ul>
+        </header>
+        <div id="banner">
+            <img src="../Images/contact-banner.jpg" alt="Hello in JS future">
+        </div>
+        <section id="contact">
+            <!-- here i made the contact us form that i git it ready from internet and made some modification on it -->
+            <div class="sectionheader">
+                <h1>CONTACT</h1>
+            </div>
+            <article>
+                <p>welcome in our website, you can contact us with this form</p>
+
+                <label for="checkcontact" class="contactbutton"><div class="mail"></div></label><input id="checkcontact" type="checkbox">
+
+                <form action="" method="post" class="contactform">
+                    <p class="input_wrapper"><input type="text" name="contact_nom" value="" id="contact_nom"><label for="contact_nom">NAME</label></p>
+                    <p class="input_wrapper"><input type="text" name="contact_email" value="" id="contact_email"><label for="contact_email">EMAIL</label></p>
+                    <p class="input_wrapper"><input type="text" name="contact_sujet" value="" id="contact_sujet"><label for="contact_sujet">PURPOSE</label></p>
+                    <p class="textarea_wrapper"><textarea name="contact_message" id="contact_message"></textarea></p>
+                    <p class="submit_wrapper"><input type="submit" value="Submit"></p>
+                </form>
+            </article>
+        </section>
+        <!-- here we made center tag to put the contnet in center of the page -->
+        <center>
+            <h1 id="visitUs">visitUs </h1>
+            <div class="mapouter">
+                <!-- here we get map from google for PSU university -->
+                <div class="gmap_canvas"><iframe width="1080" height="254" id="gmap_canvas" src="https://maps.google.com/maps?q=prince%20sultan%20uni&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/"></a>
+                </div>
+            </div>
+        </center>
+        <br>
+        <br>
+        <br>
+
+        <footer id="cont">
+            <p id="follow">follow us:</p>
+            <div id="icons">
+                <a href="https://github.com/Noureddin19/SE371"><i class="fa fa-github"></i></a>
+                <span>|</span>
+                <a href="https://twitter.com/aldhbeg"> <i class="fa fa-twitter"></i> </a>
+                <span>|</span>
+                <a href="https://www.instagram.com/n.f_2/?hl=af"><i class="fa fa-instagram"></i></a>
+                <span>|</span>
+                <a href="https://wa.me/qr/7HUCH4HYLI2WG1"><i class="fa fa-whatsapp"></i></a>
+                <span>|</span>
+                <a href=""><i class="material-icons" id="maili" >mail</i>
+            </a>
+
+
+            </div>
+
+
+        </footer>
+
+    </body>
+
+</html>

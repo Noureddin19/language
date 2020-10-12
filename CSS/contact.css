@@ -312,5 +312,10 @@
     #maili {
         font-size: 170%;
     }
+    
+    address {
+        color: whitesmoke;
+        text-align: center;
+    }
     /*ending icons  */
     /*  */
